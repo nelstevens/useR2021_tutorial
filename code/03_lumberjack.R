@@ -38,7 +38,7 @@ barplot(diff)
 ## ASSIGNMENT 4.
 # 1. Uncomment the write.csv() code under ASSIGNMENT 4 in 'clean_supermarkets.R'
 # 2. re-run clean_supermarkets.R
-source("code/clean_supermarkets.R")
+source("code/clean_supermarkets.R", chdir = TRUE)
 # 3. run the following code line-by-line and discuss the results with your 
 #    breakout partner(s)
 inp <- read.csv("code/supermarkets.csv")

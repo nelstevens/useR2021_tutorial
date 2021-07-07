@@ -1,4 +1,5 @@
 library(simputation)
+library(lumberjack)
 
 
 dat <- read.csv("supermarkets.csv")

@@ -1,0 +1,29 @@
+rules:
+- expr: turnover >= 0
+  name: BRO1
+  label: ''
+  description: ''
+  created: 2021-07-07 14:53:54
+  origin: ./code/rules.R
+  meta:
+    language: validate 1.0.4
+    severity: error
+- expr: staff >= 0
+  name: BRO2
+  label: ''
+  description: ''
+  created: 2021-07-07 14:53:54
+  origin: ./code/rules.R
+  meta:
+    language: validate 1.0.4
+    severity: error
+- expr: profit == total.rev - total.costs
+  name: BRO3
+  label: profit def
+  description: ''
+  created: 2021-07-07 14:53:54
+  origin: ./code/rules.R
+  meta:
+    language: validate 1.0.4
+    severity: error
+
